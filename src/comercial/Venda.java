@@ -6,7 +6,7 @@ public class Venda {
     public double valor;
 
     public void vender(){
-        System.out.println(pessoa + "esta vendendo R$" + this.valor);
+        System.out.println(pessoa + " esta vendendo R$" + this.valor);
     }
 
     public double calcularImposto(){
