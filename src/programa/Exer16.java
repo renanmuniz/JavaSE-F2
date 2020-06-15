@@ -10,9 +10,11 @@ public class Exer16 {
         //Empregado ep = new Empregado(); Classe abstrata não pode ser instanciada!
 
         Empregado ep1 = new Brasileiro();
-        System.out.println(ep1.valorFgts(100));
+        ep1.setNome("Renan");
+        System.out.println(ep1.getNome() + " " + ep1.valorFgts(100));
 
         Empregado ep2 = new Argentino();
-        System.out.println(ep2.valorFgts(100));
+        ep2.setNome("Carlito");
+        System.out.println(ep2.getNome() + " " + ep2.valorFgts(100));
     }
 }
